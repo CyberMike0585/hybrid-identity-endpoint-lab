@@ -25,6 +25,10 @@ So I made some deliberate cuts, and I think the reasoning behind those cuts is w
 **Separate (VMware Workstation):**
 - WIN-CLT3 / WIN-CLT4 – used for the Autopilot/cloud-native pieces. I built these on a different platform than the Proxmox clients mainly because I was running low on storage on the Proxmox box partway through, and it turned out to be a decent excuse to show I can work across more than one virtualization platform.
 
+## Topology
+
+![Lab topology diagram](lab-topology.png)
+
 ## Foundation: getting the on-prem side ready
 
 Before any of the cloud/hybrid pieces could work, the on-prem side had to be solid: a healthy domain controller, a certificate authority, and a fully working ConfigMgr site server with domain-joined clients reporting in.
